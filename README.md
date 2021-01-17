@@ -11,29 +11,40 @@ Print the steps required to move n disks from source rod to destination rod.
 Source Rod is named as 'a', auxiliary rod as 'b' and destination rod as 'c'.
 
 Input Format :
-Integer n
+  Integer n
+
 Output Format :
-Steps in different lines (in one line print source and destination rod name separated by space)
+  Steps in different lines (in one line print source and destination rod name separated by space)
 
 Constraints :
 0 <= n <= 20
 
 Sample Input 1 :
-2
+  2
 
 Sample Output 1 :
+
 a b
+
 a c
+
 b c
 
 Sample Input 2 :
-3
+  3
 
 Sample Output 2 :
+
 a c
+
 a b
+
 c b
+
 a c
+
 b a
+
 b c
+
 a c
